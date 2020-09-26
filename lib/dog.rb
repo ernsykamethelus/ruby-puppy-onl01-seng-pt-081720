@@ -24,6 +24,9 @@ end
       puts d.name
     end
   end
+  
+  def save
+    @@self << a
 
 end
 
