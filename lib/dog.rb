@@ -25,7 +25,8 @@ end
     end
   end
   
-  def self.save
+  def save
+    @@all = []
     @@all << self
   end
 
