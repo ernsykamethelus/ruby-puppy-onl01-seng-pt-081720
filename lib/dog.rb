@@ -26,7 +26,6 @@ end
   end
   
   def save
-    @@all = []
     @@all << self
   end
 
